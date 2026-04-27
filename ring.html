@@ -9,7 +9,61 @@
    
 <h1>Ring Collection</h1>
 
+<button onclick="showGram('3')">3 Gram</button>
+<button onclick="showGram('4')">4 Gram</button>
+<button onclick="showGram('6')">6 Gram</button>
+<button onclick="showGram('8')">8 Gram</button>
+<button onclick="showGram('12')">12 Gram</button>
+<button onclick="showGram('16')">16 Gram</button>
 
+<div id="g3" style="display:none;">
+<img src="ring10.jpg" width="200">
+<p>3 Gram Ring</p>
+</div>
+
+<div id="g4" style="display:none;">
+<img src="ring4.jpg" width="200">
+<img src="ring5.jpg" width="200">
+<p>4 Gram Rings</p>
+</div>
+
+<div id="g6" style="display:none;">
+<img src="ring6.jpg" width="200">
+<p>6 Gram Ring</p>
+</div>
+
+<div id="g8" style="display:none;">
+<img src="ring7.jpg" width="200">
+<img src="ring8.jpg" width="200">
+<img src="ring9.jpg" width="200">
+<p>8 Gram Rings</p>
+</div>
+
+<div id="g12" style="display:none;">
+<img src="IMG-20260423-WA0007.jpg" width="200">
+<p>12 Gram Ring</p>
+</div>
+
+<div id="g16" style="display:none;">
+<img src="IMG-20260423-WA0009.jpg" width="200">
+<img src="IMG-20260423-WA0008.jpg" width="200">
+<p>16 Gram Rings</p>
+</div>
+
+<script>
+function showGram(g){
+
+document.getElementById("g3").style.display="none";
+document.getElementById("g4").style.display="none";
+document.getElementById("g6").style.display="none";
+document.getElementById("g8").style.display="none";
+document.getElementById("g12").style.display="none";
+document.getElementById("g16").style.display="none";
+
+document.getElementById("g"+g).style.display="block";
+
+}
+</script>
 
 
 <div>
